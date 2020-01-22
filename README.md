@@ -1,27 +1,35 @@
 # PeliculasApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.1.
+Aplicación web al estilo IMDB.
+Creado con HTML5, CSS3 y JavaScript mediante el uso de Angular.
+Además utilizando la API que provee TheMovieDB.
 
-## Development server
+## Vistas
+### Index
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+![Index](vistas/index1.jpg)
 
-## Code scaffolding
+![Index](vistas/index2.jpg)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+### Búsqueda
+![Búsqueda](vistas/busqueda.jpg)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+### Peli
+Se puede ingresar al tocar en el banner de una imagen, ya sea desde el index como desde una búsqueda.
+En esta sección se encuentra el titulo de la película en cuestión, una breve descripción y valoración de la misma.
 
-## Running unit tests
+![Película](vistas/peli.jpg)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Uso:
+Despues de descargar el repositorio, a traves de la linea de comando ejecutar el siguiente script:
 
-## Running end-to-end tests
+**npm install**
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+y luego:
 
-## Further help
+**ng serve** 
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+o
+
+**ng serve -o**
